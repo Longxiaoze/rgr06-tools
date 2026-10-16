@@ -1,0 +1,338 @@
+{
+  "created_at_utc": "2026-10-16T05:31:26.431237+00:00",
+  "source": "Local standard-library tool, external to REA repository",
+  "source_sha256": {
+    "rgr06_capture.py": "f06033d24af3862d02c7a56abeb51669855b7efa70a8eafee39136c0e567fe21",
+    "rgr06_mapper.py": "64eb18235c2ccd2febeb4bafeaccee8d7876edee2b3e3ef155b8c83380f9cd05",
+    "rgr06_motion.py": "8b61dc99e3b3c44eebb37d1e7641398a3e6d3bdde06c4b961dc027d8d1957565",
+    "rgr06_desktop_test.py": "9bceaf1935175573f01388018d6ee995d92d3e500be0616db9870eccd8a139ab",
+    "rgr06-config.json": "7bf90040593311f459b8e979eebd50219fc5cc39da592045439f73e781f945eb"
+  },
+  "unit_tests": {
+    "command": "python3 -m unittest discover -v",
+    "exit_code": 0,
+    "elapsed_seconds": 0.14100639799653436,
+    "cpu_user_seconds": 0.09455899999999999,
+    "cpu_system_seconds": 0.017915999999999998,
+    "peak_direct_child_rss_kib": 36784,
+    "tail": [
+      "test_saturation_does_not_invent_lost_motion_and_keeps_raw_axis_statistics (test_rgr06_motion.RelativeMotionTests) ... ok",
+      "test_unknown_or_invalid_facts_reset_without_stale_motion (test_rgr06_motion.RelativeMotionTests) ... ok",
+      "",
+      "----------------------------------------------------------------------",
+      "Ran 57 tests in 0.060s",
+      "",
+      "OK"
+    ]
+  },
+  "real_recording_replay": {
+    "source_path": "/home/longxiaoze/codes/rgr06-tools/evidence/retest-samples.jsonl",
+    "source_absolute_path": "/home/longxiaoze/codes/rgr06-tools/evidence/retest-samples.jsonl",
+    "source_sha256": "aa1f73731173527b0f179e42aa386f81463030fb9c4b3f24a022a7cf4963a7fa",
+    "capture_complete": true,
+    "raw_reports": 1468,
+    "state_before_final_cleanup": {
+      "buttons_held": [],
+      "touch_active": false
+    },
+    "button_clicks": {
+      "left": 8,
+      "right": 136,
+      "middle": 11
+    },
+    "wheel_detents": {
+      "wheel_up": 49,
+      "wheel_down": 51
+    },
+    "touch_contacts": 0,
+    "touch_releases": 0,
+    "relative_motion": {
+      "x": {
+        "events": 358,
+        "total": 38
+      },
+      "y": {
+        "events": 416,
+        "total": -942
+      }
+    },
+    "buttons_held_at_end": [],
+    "touch_active_at_end": false,
+    "statistics": {
+      "recognized_controls": {
+        "right": 136,
+        "wheel_press": 11,
+        "wheel_forward": 49,
+        "wheel_backward": 51,
+        "left": 8
+      },
+      "drops": {
+        "unknown_sequences": 6,
+        "dropped_taps": 15,
+        "incomplete_taps": 0
+      },
+      "pending_taps": 0,
+      "pressed_report_states": 0,
+      "wheel_burst_active": false,
+      "sequence_idle_timeout_seconds": 1.0,
+      "relative_touch": {
+        "gain": 0.5,
+        "contact_signal": "in_range",
+        "active_samples": 528,
+        "contacts": 22,
+        "lifts": 22,
+        "motion_frames": 480,
+        "relative_x_total": 38,
+        "relative_y_total": -942,
+        "rejected_reports": 0,
+        "active": false,
+        "axis_saturation_samples": {
+          "x": 139,
+          "y": 0
+        },
+        "limitations": [
+          "Firmware coordinate saturation at 0/4095 loses motion; no missing movement is synthesized."
+        ]
+      }
+    }
+  },
+  "real_uinput_classification": {
+    "tested_at_utc": "2026-10-16T05:11:16.504541+00:00",
+    "scope": "real uinput create/classify/destroy only; no injected events, no grabs",
+    "results": [
+      {
+        "kind": "touch",
+        "sysname": "input35",
+        "events_injected": false,
+        "properties": {
+          "DEVPATH": "/devices/virtual/input/input35/event28",
+          "DEVNAME": "/dev/input/event28",
+          "MAJOR": "13",
+          "MINOR": "92",
+          "SUBSYSTEM": "input",
+          "USEC_INITIALIZED": "16027310426",
+          "ID_INPUT": "1",
+          "ID_INPUT_TOUCHSCREEN": "1"
+        },
+        "input_properties": "2",
+        "removed_after_close": true
+      },
+      {
+        "kind": "mouse",
+        "sysname": "input36",
+        "events_injected": false,
+        "properties": {
+          "DEVPATH": "/devices/virtual/input/input36/event29",
+          "DEVNAME": "/dev/input/event29",
+          "MAJOR": "13",
+          "MINOR": "93",
+          "SUBSYSTEM": "input",
+          "USEC_INITIALIZED": "16027361284",
+          "ID_INPUT": "1",
+          "ID_INPUT_MOUSE": "1",
+          "ID_SERIAL": "noserial"
+        },
+        "input_properties": "0",
+        "removed_after_close": true
+      }
+    ]
+  },
+  "operator_confirmations": [
+    "User confirmed left/right/wheel-press buttons work on current computer",
+    "User selected touchpad-style cursor motion after touchscreen-mode testing",
+    "User confirmed pointer movement normal with final pointer-mode mapper",
+    "User confirmed both wheel directions scroll normally with final burst parser"
+  ],
+  "live_pointer_and_wheel_verification": "passed by user testing on current Linux computer with mapper SHA256 64eb18235c2ccd2febeb4bafeaccee8d7876edee2b3e3ef155b8c83380f9cd05",
+  "limitations": [
+    "Current host remapping, not persistent onboard firmware configuration",
+    "Physical held-button dragging and unimplemented multi-click/long-press macros are unknown",
+    "Firmware coordinate saturation can lose motion and is reported without extrapolation",
+    "Physical wheel detent to logical scroll-unit ratio is not calibrated"
+  ],
+  "updated_at_utc": "2026-10-16T05:32:55.243522+00:00",
+  "performance_comparison": {
+    "baseline": {
+      "source_sha256": "9e18d1088e23afcb0cf5aeeb12864e61d91ba3aff3fef8a0e77315038c884ffa",
+      "scope": "one warm offline replay of complete real recording; no devices opened",
+      "elapsed_seconds": 0.01490313599788351,
+      "cpu_user_seconds": 0.014785000000000003,
+      "cpu_system_seconds": 9.500000000000003e-05,
+      "peak_process_rss_kib": 17792,
+      "result": {
+        "source_path": "/home/longxiaoze/codes/rgr06-tools/evidence/retest-samples.jsonl",
+        "source_absolute_path": "/home/longxiaoze/codes/rgr06-tools/evidence/retest-samples.jsonl",
+        "source_sha256": "aa1f73731173527b0f179e42aa386f81463030fb9c4b3f24a022a7cf4963a7fa",
+        "capture_complete": true,
+        "raw_reports": 1468,
+        "state_before_final_cleanup": {
+          "buttons_held": [],
+          "touch_active": false
+        },
+        "button_clicks": {
+          "left": 8,
+          "right": 136,
+          "middle": 11
+        },
+        "wheel_detents": {
+          "wheel_up": 2,
+          "wheel_down": 0
+        },
+        "touch_contacts": 22,
+        "touch_releases": 22,
+        "buttons_held_at_end": [],
+        "touch_active_at_end": false,
+        "statistics": {
+          "recognized_controls": {
+            "right": 136,
+            "wheel_press": 11,
+            "wheel_forward": 2,
+            "left": 8
+          },
+          "drops": {
+            "unknown_sequences": 104,
+            "dropped_taps": 151,
+            "incomplete_taps": 0
+          },
+          "pending_taps": 0,
+          "pressed_report_states": 0,
+          "sequence_idle_timeout_seconds": 1.0
+        }
+      },
+      "unmeasured": [
+        "agent tokens",
+        "cold startup",
+        "live input latency",
+        "process-family memory"
+      ]
+    },
+    "fixed": {
+      "source_sha256": "64eb18235c2ccd2febeb4bafeaccee8d7876edee2b3e3ef155b8c83380f9cd05",
+      "scope": "one warm offline replay of complete real recording; same touchscreen mode as baseline; no devices opened",
+      "elapsed_seconds": 0.015809045002242783,
+      "cpu_user_seconds": 0.014812000000000002,
+      "cpu_system_seconds": 0.0009360000000000002,
+      "peak_process_rss_kib": 15856,
+      "result": {
+        "source_path": "/home/longxiaoze/codes/rgr06-tools/evidence/retest-samples.jsonl",
+        "source_absolute_path": "/home/longxiaoze/codes/rgr06-tools/evidence/retest-samples.jsonl",
+        "source_sha256": "aa1f73731173527b0f179e42aa386f81463030fb9c4b3f24a022a7cf4963a7fa",
+        "capture_complete": true,
+        "raw_reports": 1468,
+        "state_before_final_cleanup": {
+          "buttons_held": [],
+          "touch_active": false
+        },
+        "button_clicks": {
+          "left": 8,
+          "right": 136,
+          "middle": 11
+        },
+        "wheel_detents": {
+          "wheel_up": 49,
+          "wheel_down": 51
+        },
+        "touch_contacts": 22,
+        "touch_releases": 22,
+        "relative_motion": {
+          "x": {
+            "events": 0,
+            "total": 0
+          },
+          "y": {
+            "events": 0,
+            "total": 0
+          }
+        },
+        "buttons_held_at_end": [],
+        "touch_active_at_end": false,
+        "statistics": {
+          "recognized_controls": {
+            "right": 136,
+            "wheel_press": 11,
+            "wheel_forward": 49,
+            "wheel_backward": 51,
+            "left": 8
+          },
+          "drops": {
+            "unknown_sequences": 6,
+            "dropped_taps": 15,
+            "incomplete_taps": 0
+          },
+          "pending_taps": 0,
+          "pressed_report_states": 0,
+          "wheel_burst_active": false,
+          "sequence_idle_timeout_seconds": 1.0
+        }
+      },
+      "unmeasured": [
+        "agent tokens",
+        "cold startup",
+        "live input latency",
+        "process-family memory"
+      ]
+    },
+    "interpretation": "One warm offline sample for each implementation; correctness improved from 2/0 to 49/51 scroll units. No speed or memory improvement is claimed; token, cold and process-family costs remain unmeasured."
+  },
+  "real_final_run": {
+    "stopped": "signal",
+    "statistics": {
+      "recognized_controls": {
+        "wheel_forward": 71,
+        "wheel_backward": 109,
+        "left": 2,
+        "right": 1
+      },
+      "drops": {
+        "incomplete_taps": 0
+      },
+      "pending_taps": 0,
+      "pressed_report_states": 0,
+      "wheel_burst_active": false,
+      "sequence_idle_timeout_seconds": 1.0,
+      "relative_touch": {
+        "gain": 0.5,
+        "contact_signal": "in_range",
+        "active_samples": 2420,
+        "contacts": 24,
+        "lifts": 24,
+        "motion_frames": 2064,
+        "relative_x_total": -400,
+        "relative_y_total": 111,
+        "rejected_reports": 0,
+        "active": false,
+        "axis_saturation_samples": {
+          "x": 819,
+          "y": 131
+        },
+        "limitations": [
+          "Firmware coordinate saturation at 0/4095 loses motion; no missing movement is synthesized."
+        ]
+      }
+    }
+  },
+  "foreground_handoff": {
+    "observed_at_utc": "2026-10-16T05:34:03.826418+00:00",
+    "terminal_launch_exit_code": 0,
+    "matching_mapper_processes": [
+      {
+        "pid": 81712,
+        "start_ticks": "8638512",
+        "argv": [
+          "/usr/bin/python3",
+          "-u",
+          "/home/longxiaoze/codes/rgr06-tools/rgr06_mapper.py",
+          "--run",
+          "--seconds",
+          "3600",
+          "--arm-timeout",
+          "120"
+        ],
+        "boot_id": "de6435fd-ba54-4828-bf10-c82c25638645",
+        "has_uinput_fd": false
+      }
+    ],
+    "maximum_mapping_seconds": 3600,
+    "user_can_stop_with": "Ctrl+C in the RGR06 terminal"
+  }
+}

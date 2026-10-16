@@ -1,0 +1,17 @@
+{
+  "command": "python3 -m unittest discover -v",
+  "exit_code": 0,
+  "elapsed_seconds": 0.14100639799653436,
+  "cpu_user_seconds": 0.09455899999999999,
+  "cpu_system_seconds": 0.017915999999999998,
+  "peak_direct_child_rss_kib": 36784,
+  "tail": [
+    "test_saturation_does_not_invent_lost_motion_and_keeps_raw_axis_statistics (test_rgr06_motion.RelativeMotionTests) ... ok",
+    "test_unknown_or_invalid_facts_reset_without_stale_motion (test_rgr06_motion.RelativeMotionTests) ... ok",
+    "",
+    "----------------------------------------------------------------------",
+    "Ran 57 tests in 0.060s",
+    "",
+    "OK"
+  ]
+}

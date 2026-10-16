@@ -1,0 +1,16 @@
+{
+  "pid": 68260,
+  "start_ticks": "8547462",
+  "argv": [
+    "/usr/bin/python3",
+    "-u",
+    "/home/longxiaoze/codes/rgr06-tools/rgr06_mapper.py",
+    "--run",
+    "--seconds",
+    "300",
+    "--arm-timeout",
+    "120"
+  ],
+  "boot_id": "de6435fd-ba54-4828-bf10-c82c25638645",
+  "mapper_sha256": "980abcad0650b44edc7c88d0d4356e17d9fd44977782971c841cfbeb8e754897"
+}

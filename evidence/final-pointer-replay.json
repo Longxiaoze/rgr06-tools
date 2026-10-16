@@ -1,0 +1,71 @@
+{
+  "source_path": "/home/longxiaoze/codes/rgr06-tools/evidence/retest-samples.jsonl",
+  "source_absolute_path": "/home/longxiaoze/codes/rgr06-tools/evidence/retest-samples.jsonl",
+  "source_sha256": "aa1f73731173527b0f179e42aa386f81463030fb9c4b3f24a022a7cf4963a7fa",
+  "capture_complete": true,
+  "raw_reports": 1468,
+  "state_before_final_cleanup": {
+    "buttons_held": [],
+    "touch_active": false
+  },
+  "button_clicks": {
+    "left": 8,
+    "right": 136,
+    "middle": 11
+  },
+  "wheel_detents": {
+    "wheel_up": 49,
+    "wheel_down": 51
+  },
+  "touch_contacts": 0,
+  "touch_releases": 0,
+  "relative_motion": {
+    "x": {
+      "events": 358,
+      "total": 38
+    },
+    "y": {
+      "events": 416,
+      "total": -942
+    }
+  },
+  "buttons_held_at_end": [],
+  "touch_active_at_end": false,
+  "statistics": {
+    "recognized_controls": {
+      "right": 136,
+      "wheel_press": 11,
+      "wheel_forward": 49,
+      "wheel_backward": 51,
+      "left": 8
+    },
+    "drops": {
+      "unknown_sequences": 6,
+      "dropped_taps": 15,
+      "incomplete_taps": 0
+    },
+    "pending_taps": 0,
+    "pressed_report_states": 0,
+    "wheel_burst_active": false,
+    "sequence_idle_timeout_seconds": 1.0,
+    "relative_touch": {
+      "gain": 0.5,
+      "contact_signal": "in_range",
+      "active_samples": 528,
+      "contacts": 22,
+      "lifts": 22,
+      "motion_frames": 480,
+      "relative_x_total": 38,
+      "relative_y_total": -942,
+      "rejected_reports": 0,
+      "active": false,
+      "axis_saturation_samples": {
+        "x": 139,
+        "y": 0
+      },
+      "limitations": [
+        "Firmware coordinate saturation at 0/4095 loses motion; no missing movement is synthesized."
+      ]
+    }
+  }
+}

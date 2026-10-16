@@ -1,0 +1,14 @@
+{
+  "pid": 60223,
+  "start_ticks": "8490334",
+  "argv": [
+    "python3",
+    "-u",
+    "/home/longxiaoze/codes/rgr06-tools/rgr06_capture.py",
+    "record",
+    "--seconds",
+    "600",
+    "--output",
+    "/home/longxiaoze/codes/rgr06-tools/evidence/control-samples.jsonl"
+  ]
+}

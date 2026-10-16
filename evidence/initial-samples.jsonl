@@ -1,0 +1,1 @@
+{"type": "capture", "started_at_utc": "2026-10-16T05:07:18.435483+00:00", "source": "/dev/hidraw3", "uniq": "d1:05:cb:5c:37:15", "descriptor_sha256": "177ec423b4adb8fcd2137ed9476f5d61baa261950aa93b9cb33d25e7f4be02e6", "mode": "passive, no grab, no writes", "seconds": 90}

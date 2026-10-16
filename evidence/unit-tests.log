@@ -1,0 +1,77 @@
+test_interrupt_writes_end_and_closes_owned_fd (test_rgr06_capture.CaptureLifecycleTests) ... ok
+test_passive_pipe_capture_streams_report_and_closes_owned_fd (test_rgr06_capture.CaptureLifecycleTests) ... ok
+test_excludes_same_model_other_address_and_refuses_ambiguous_identity (test_rgr06_capture.DiscoveryTests) ... ok
+test_consumer_is_little_endian_and_preserves_release_zero (test_rgr06_capture.ReportDecoderTests) ... ok
+test_digitizer_field_order_flags_and_unclamped_values (test_rgr06_capture.ReportDecoderTests) ... ok
+test_duration_bounds_nonfinite_and_unbounded_requests (test_rgr06_capture.ReportDecoderTests) ... ok
+test_identity_requires_complete_numeric_bus_vendor_product_and_unique_address (test_rgr06_capture.ReportDecoderTests) ... ok
+test_keyboard_preserves_slots_reserved_and_modifier_bits (test_rgr06_capture.ReportDecoderTests) ... ok
+test_unknown_and_malformed_reports_keep_bytes_without_guesses (test_rgr06_capture.ReportDecoderTests) ... ok
+test_touch_and_smooth_scroll_accessors_preserve_values (test_rgr06_desktop_test.GdkBoundary) ... ok
+test_touch_emulated_buttons_are_not_counted_as_mouse_clicks (test_rgr06_desktop_test.GdkBoundary) ... ok
+test_union_buttons_1_2_3_decode_to_integers_and_count (test_rgr06_desktop_test.GdkBoundary) ... ok
+test_bad_identity_types_are_expected_errors (test_rgr06_mapper.ConfigBoundaries) ... ok
+test_duplicate_sources_and_invalid_action_fail_before_devices (test_rgr06_mapper.ConfigBoundaries) ... ok
+test_actual_125_report_capture_matches_declared_control_counts (test_rgr06_mapper.FirmwareRecognition) ... ok
+test_captured_double_click_suffixes_emit_two_clicks_each (test_rgr06_mapper.FirmwareRecognition) ... ok
+test_complete_retest_capture_preserves_all_direction_pulses (test_rgr06_mapper.FirmwareRecognition) ... ok
+test_delayed_single_right_and_middle_are_full_click_pulses (test_rgr06_mapper.FirmwareRecognition) ... ok
+test_expired_held_tap_cannot_restart_from_repeated_down (test_rgr06_mapper.FirmwareRecognition) ... ok
+test_expired_incomplete_and_unknown_sequences_drop_without_clicks (test_rgr06_mapper.FirmwareRecognition) ... ok
+test_f1_prefix_alone_and_wheel_do_not_generate_a_right_click (test_rgr06_mapper.FirmwareRecognition) ... ok
+test_non_neutral_key_change_cannot_fabricate_a_valid_tap (test_rgr06_mapper.FirmwareRecognition) ... ok
+test_overlapping_report_states_are_discarded_until_neutral (test_rgr06_mapper.FirmwareRecognition) ... ok
+test_two_profiles_cannot_inject_in_parallel (test_rgr06_mapper.FirmwareRecognition) ... ok
+test_unknown_chord_stays_quarantined_after_timeout_until_neutral (test_rgr06_mapper.FirmwareRecognition) ... ok
+test_unprefixed_or_expired_direction_pulses_do_not_create_a_burst (test_rgr06_mapper.FirmwareRecognition) ... ok
+test_wheel_burst_repeats_and_reverses_without_extra_tail_unit (test_rgr06_mapper.FirmwareRecognition) ... ok
+test_actual_in_range_report_is_not_default_contact (test_rgr06_mapper.InputTransitions) ... ok
+test_bad_packet_never_emits_but_finally_releases_previous_state (test_rgr06_mapper.InputTransitions) ... ok
+test_exact_modifiers_and_independent_release (test_rgr06_mapper.InputTransitions) ... ok
+test_explicit_in_range_adapter_and_touch_frame_order (test_rgr06_mapper.InputTransitions) ... ok
+test_failed_mouse_release_still_releases_touch_and_can_retry (test_rgr06_mapper.InputTransitions) ... ok
+test_partial_button_write_retains_possible_down_for_cleanup (test_rgr06_mapper.InputTransitions) ... ok
+test_shared_button_owners_and_unrelated_report_release (test_rgr06_mapper.InputTransitions) ... ok
+test_wheel_edges_ignore_duplicate_reports_and_do_not_release_held_mouse (test_rgr06_mapper.InputTransitions) ... ok
+test_check_never_grabs_or_creates_virtual_devices (test_rgr06_mapper.Lifecycle) ... {"device": {"uniq": "d1:05:cb:5c:37:15"}, "descriptor_sha256": "177ec423b4adb8fcd2137ed9476f5d61baa261950aa93b9cb33d25e7f4be02e6", "opened_nodes": ["/selected/a", "/selected/b", "/selected/raw"], "uinput_writable": true, "live_report_length": 9, "bindings": 0, "touch_enabled": true, "profile": "raw", "controls": {}, "touch_mode": "touchscreen", "touch_gain": 0.5, "grabbed": false, "virtual_devices_created": false}
+ok
+test_cleanup_failure_is_error_after_other_cleanup_completes (test_rgr06_mapper.Lifecycle) ... Preflight: release all RGR06 controls, then briefly touch and release its surface within 30 seconds.
+{"device": {"uniq": "d1:05:cb:5c:37:15"}, "descriptor_sha256": "177ec423b4adb8fcd2137ed9476f5d61baa261950aa93b9cb33d25e7f4be02e6", "opened_nodes": ["/selected/a", "/selected/b", "/selected/raw"], "uinput_writable": true, "live_report_length": 9, "bindings": 0, "touch_enabled": true, "profile": "raw", "controls": {}, "touch_mode": "touchscreen", "touch_gain": 0.5, "grabbed": false, "virtual_devices_created": false}
+Mapping active for up to 0s; Ctrl-C releases controls and restores native RGR06 input.
+ok
+test_disconnect_releases_both_devices_before_destroy_ungrab_and_signal_restore (test_rgr06_mapper.Lifecycle) ... Preflight: release all RGR06 controls, then briefly touch and release its surface within 30 seconds.
+{"device": {"uniq": "d1:05:cb:5c:37:15"}, "descriptor_sha256": "177ec423b4adb8fcd2137ed9476f5d61baa261950aa93b9cb33d25e7f4be02e6", "opened_nodes": ["/selected/a", "/selected/b", "/selected/raw"], "uinput_writable": true, "live_report_length": 9, "bindings": 1, "touch_enabled": true, "profile": "raw", "controls": {}, "touch_mode": "touchscreen", "touch_gain": 0.5, "grabbed": false, "virtual_devices_created": false}
+Mapping active for up to 60s; Ctrl-C releases controls and restores native RGR06 input.
+ok
+test_first_touch_can_finish_releasing_before_grab (test_rgr06_mapper.Lifecycle) ... ok
+test_pointer_mode_creates_only_mouse_and_disconnect_has_no_touch_contact (test_rgr06_mapper.Lifecycle) ... Preflight: release all RGR06 controls, then briefly touch and release its surface within 30 seconds.
+{"device": {"uniq": "d1:05:cb:5c:37:15"}, "descriptor_sha256": "177ec423b4adb8fcd2137ed9476f5d61baa261950aa93b9cb33d25e7f4be02e6", "opened_nodes": ["/selected/a", "/selected/b", "/selected/raw"], "uinput_writable": true, "live_report_length": 9, "bindings": 0, "touch_enabled": true, "profile": "raw", "controls": {}, "touch_mode": "pointer", "touch_gain": 0.5, "grabbed": false, "virtual_devices_created": false}
+Mapping active for up to 60s; Ctrl-C releases controls and restores native RGR06 input.
+ok
+test_repeated_cancellation_during_final_cleanup_does_not_skip_ungrab_or_close (test_rgr06_mapper.Lifecycle) ... Preflight: release all RGR06 controls, then briefly touch and release its surface within 30 seconds.
+{"device": {"uniq": "d1:05:cb:5c:37:15"}, "descriptor_sha256": "177ec423b4adb8fcd2137ed9476f5d61baa261950aa93b9cb33d25e7f4be02e6", "opened_nodes": ["/selected/a", "/selected/b", "/selected/raw"], "uinput_writable": true, "live_report_length": 9, "bindings": 0, "touch_enabled": true, "profile": "raw", "controls": {}, "touch_mode": "touchscreen", "touch_gain": 0.5, "grabbed": false, "virtual_devices_created": false}
+Mapping active for up to 0s; Ctrl-C releases controls and restores native RGR06 input.
+ok
+test_second_grab_failure_rolls_back_first_without_virtual_creation (test_rgr06_mapper.Lifecycle) ... Preflight: release all RGR06 controls, then briefly touch and release its surface within 30 seconds.
+{"device": {"uniq": "d1:05:cb:5c:37:15"}, "descriptor_sha256": "177ec423b4adb8fcd2137ed9476f5d61baa261950aa93b9cb33d25e7f4be02e6", "opened_nodes": ["/selected/a", "/selected/b", "/selected/raw"], "uinput_writable": true, "live_report_length": 9, "bindings": 0, "touch_enabled": true, "profile": "raw", "controls": {}, "touch_mode": "touchscreen", "touch_gain": 0.5, "grabbed": false, "virtual_devices_created": false}
+ok
+test_uinput_open_failure_after_fd_acquisition_closes_fd (test_rgr06_mapper.Lifecycle) ... ok
+test_relative_motion_has_no_first_contact_jump_click_or_screen_contact (test_rgr06_mapper.PointerTouchIntegration) ... ok
+test_failed_press_write_is_released_without_cleanup_delay (test_rgr06_mapper.RealMouseTiming) ... ok
+test_real_double_click_has_four_separated_edges_first_immediate (test_rgr06_mapper.RealMouseTiming) ... ok
+test_stop_during_wait_keeps_pressed_ledger_and_cleanup_releases_without_wait (test_rgr06_mapper.RealMouseTiming) ... ok
+test_missing_or_foreign_provenance_is_rejected (test_rgr06_mapper.ReplayBoundaries) ... ok
+test_nonobjects_and_missing_packet_fields_are_expected_errors (test_rgr06_mapper.ReplayBoundaries) ... ok
+test_axis_transforms_are_applied_once_before_differencing (test_rgr06_motion.RelativeMotionTests) ... ok
+test_first_sample_only_baselines_and_lift_reposition_does_not_jump (test_rgr06_motion.RelativeMotionTests) ... ok
+test_fractional_gain_does_not_accumulate_addition_drift (test_rgr06_motion.RelativeMotionTests) ... ok
+test_gain_and_int32_output_limits_are_expected_errors (test_rgr06_motion.RelativeMotionTests) ... ok
+test_positive_negative_carry_truncates_toward_zero_and_reverses (test_rgr06_motion.RelativeMotionTests) ... ok
+test_reset_clears_carry_and_preserves_statistics (test_rgr06_motion.RelativeMotionTests) ... ok
+test_saturation_does_not_invent_lost_motion_and_keeps_raw_axis_statistics (test_rgr06_motion.RelativeMotionTests) ... ok
+test_unknown_or_invalid_facts_reset_without_stale_motion (test_rgr06_motion.RelativeMotionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 57 tests in 0.060s
+
+OK

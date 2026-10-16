@@ -1,0 +1,1209 @@
+{
+  "created_at_utc": "2026-10-16T05:13:35.557956+00:00",
+  "source_file": "/home/longxiaoze/codes/rgr06-tools/evidence/control-samples.jsonl",
+  "source_sha256": "45132728c5f0c90acdf3f7f65e396cb0bbe856d3d842e25ef2785555063b6506",
+  "source_type": "real RGR06 passive hidraw and evdev recording; not REA Evidence",
+  "counts": {
+    "hidraw": 125,
+    "evdev": 319
+  },
+  "operator_statements": [
+    "First sequence: left twice, right twice, wheel press twice, wheel forward three, wheel backward three, touch diagonal swipe; user replied 完成",
+    "Second sequence: isolated left, wait 5s, right, wait 5s, wheel press, wait 5s; user replied 单击完成"
+  ],
+  "non_touch_reports": [
+    {
+      "jsonl_line": 2,
+      "elapsed_seconds": 66.050538,
+      "hex": "0100003c0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          60,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 9,
+      "elapsed_seconds": 66.050662,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 10,
+      "elapsed_seconds": 66.291786,
+      "hex": "0100003c0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          60,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 17,
+      "elapsed_seconds": 66.291894,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 18,
+      "elapsed_seconds": 67.678619,
+      "hex": "0100003a0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          58,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 19,
+      "elapsed_seconds": 67.678683,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 26,
+      "elapsed_seconds": 67.956594,
+      "hex": "0100003a0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          58,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 27,
+      "elapsed_seconds": 67.956659,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 34,
+      "elapsed_seconds": 68.32365,
+      "hex": "022402",
+      "decoded": {
+        "kind": "consumer",
+        "usage": 548
+      }
+    },
+    {
+      "jsonl_line": 35,
+      "elapsed_seconds": 68.323708,
+      "hex": "020000",
+      "decoded": {
+        "kind": "consumer",
+        "usage": 0
+      }
+    },
+    {
+      "jsonl_line": 42,
+      "elapsed_seconds": 69.727627,
+      "hex": "0100003a0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          58,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 43,
+      "elapsed_seconds": 69.727691,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 50,
+      "elapsed_seconds": 70.078713,
+      "hex": "0100003a0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          58,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 57,
+      "elapsed_seconds": 70.078823,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 58,
+      "elapsed_seconds": 70.424602,
+      "hex": "0100003e0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          62,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 65,
+      "elapsed_seconds": 70.424706,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 66,
+      "elapsed_seconds": 72.434625,
+      "hex": "0100003a0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          58,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 79,
+      "elapsed_seconds": 72.434765,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 80,
+      "elapsed_seconds": 72.434777,
+      "hex": "010000500000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          80,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 81,
+      "elapsed_seconds": 72.434786,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 82,
+      "elapsed_seconds": 72.636549,
+      "hex": "010000520000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          82,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 83,
+      "elapsed_seconds": 72.636615,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 90,
+      "elapsed_seconds": 73.22966,
+      "hex": "0100003a0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          58,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 91,
+      "elapsed_seconds": 73.229726,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 101,
+      "elapsed_seconds": 73.229799,
+      "hex": "010000500000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          80,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 102,
+      "elapsed_seconds": 73.232551,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 106,
+      "elapsed_seconds": 73.43263,
+      "hex": "010000520000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          82,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 113,
+      "elapsed_seconds": 73.432745,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 114,
+      "elapsed_seconds": 73.956589,
+      "hex": "0100003a0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          58,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 115,
+      "elapsed_seconds": 73.956653,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 125,
+      "elapsed_seconds": 73.956727,
+      "hex": "010000500000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          80,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 126,
+      "elapsed_seconds": 73.959479,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 130,
+      "elapsed_seconds": 74.158683,
+      "hex": "010000520000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          82,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 137,
+      "elapsed_seconds": 74.158786,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 138,
+      "elapsed_seconds": 75.36654,
+      "hex": "0100003a0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          58,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 139,
+      "elapsed_seconds": 75.366626,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 149,
+      "elapsed_seconds": 75.366698,
+      "hex": "0100004f0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          79,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 150,
+      "elapsed_seconds": 75.368482,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 154,
+      "elapsed_seconds": 75.568756,
+      "hex": "010000510000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          81,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 161,
+      "elapsed_seconds": 75.568861,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 162,
+      "elapsed_seconds": 76.063707,
+      "hex": "0100003a0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          58,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 172,
+      "elapsed_seconds": 76.063843,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 173,
+      "elapsed_seconds": 76.063855,
+      "hex": "0100004f0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          79,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 174,
+      "elapsed_seconds": 76.065622,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 178,
+      "elapsed_seconds": 76.266665,
+      "hex": "010000510000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          81,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 185,
+      "elapsed_seconds": 76.266763,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 186,
+      "elapsed_seconds": 76.746638,
+      "hex": "0100003a0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          58,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 187,
+      "elapsed_seconds": 76.746717,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 197,
+      "elapsed_seconds": 76.746799,
+      "hex": "0100004f0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          79,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 198,
+      "elapsed_seconds": 76.748473,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 202,
+      "elapsed_seconds": 76.948855,
+      "hex": "010000510000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          81,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 209,
+      "elapsed_seconds": 76.948976,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 406,
+      "elapsed_seconds": 143.482798,
+      "hex": "0100003c0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          60,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 413,
+      "elapsed_seconds": 143.482911,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 414,
+      "elapsed_seconds": 148.769644,
+      "hex": "0100003a0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          58,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 415,
+      "elapsed_seconds": 148.769723,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 422,
+      "elapsed_seconds": 149.152629,
+      "hex": "010000280000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          40,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 423,
+      "elapsed_seconds": 149.152692,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 430,
+      "elapsed_seconds": 154.770616,
+      "hex": "0100003a0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          58,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 437,
+      "elapsed_seconds": 154.770727,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 438,
+      "elapsed_seconds": 155.14467,
+      "hex": "0100003d0000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          61,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "jsonl_line": 445,
+      "elapsed_seconds": 155.144784,
+      "hex": "010000000000000000",
+      "decoded": {
+        "kind": "keyboard",
+        "modifier_bits": 0,
+        "reserved": 0,
+        "modifier_usages": [],
+        "usage_slots": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "touch_observed": {
+    "reports": 63,
+    "flags_counts": {
+      "2": 62,
+      "0": 1
+    },
+    "contact_count_values": [
+      0
+    ],
+    "x_range": [
+      3647,
+      4095
+    ],
+    "y_range": [
+      2239,
+      4095
+    ]
+  },
+  "interpretation": {
+    "left": "F3 tap",
+    "right_single": "F1 tap then Enter tap, about 383 ms later",
+    "wheel_press_single": "F1 tap then F4 tap, about 374 ms later",
+    "wheel_forward": "F1, Left Arrow, Up Arrow taps; terminal about 202 ms after prefix",
+    "wheel_backward": "F1, Right Arrow, Down Arrow taps; terminal about 202 ms after prefix",
+    "right_double": "two F1 taps then consumer usage 0x224; inferred from operator step",
+    "wheel_press_double": "two F1 taps then F5 tap; inferred from operator step",
+    "touch_contact_adaptation": "Use observed InRange transitions as virtual contact; raw TipSwitch remained false"
+  },
+  "unknowns": [
+    "Physical held-button and drag semantics",
+    "Rapid wheel macro interleaving beyond captured three-step sequences",
+    "Multiple display association and compositor behavior",
+    "Vendor-specific configuration protocol and onboard persistent remapping",
+    "True touch surface coordinates versus firmware cursor coordinates"
+  ]
+}

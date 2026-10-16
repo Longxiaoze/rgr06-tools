@@ -1,0 +1,11 @@
+{
+  "pid": 73494,
+  "start_ticks": "8582938",
+  "argv": [
+    "python3",
+    "-u",
+    "-"
+  ],
+  "boot_id": "de6435fd-ba54-4828-bf10-c82c25638645",
+  "loaded_mapper_sha256": "9e18d1088e23afcb0cf5aeeb12864e61d91ba3aff3fef8a0e77315038c884ffa"
+}

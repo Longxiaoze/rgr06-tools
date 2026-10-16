@@ -1,0 +1,6 @@
+MAPPER_PID 73494 SHA256 9e18d1088e23afcb0cf5aeeb12864e61d91ba3aff3fef8a0e77315038c884ffa
+Preflight: release all RGR06 controls, then briefly touch and release its surface within 120 seconds.
+{"device": {"bus": 5, "vendor": 9354, "product": 1115, "uniq": "d1:05:cb:5c:37:15", "name": "RGR06", "physical": "e4:c7:67:70:d1:b7"}, "descriptor_sha256": "177ec423b4adb8fcd2137ed9476f5d61baa261950aa93b9cb33d25e7f4be02e6", "opened_nodes": ["/dev/input/event26", "/dev/input/event27", "/dev/hidraw3"], "uinput_writable": true, "live_report_length": 9, "bindings": 0, "touch_enabled": true, "profile": "rgr06-observed-v1", "controls": {"left": "left", "right": "right", "wheel_press": "middle", "wheel_forward": "wheel_up", "wheel_backward": "wheel_down"}, "grabbed": false, "virtual_devices_created": false}
+Mapping active for up to 300s; Ctrl-C releases controls and restores native RGR06 input.
+{"stopped": "signal", "statistics": {"recognized_controls": {"right": 9, "wheel_press": 11, "wheel_forward": 2, "left": 8}, "drops": {"unknown_sequences": 105, "dropped_taps": 152, "incomplete_taps": 0}, "pending_taps": 0, "pressed_report_states": 0, "sequence_idle_timeout_seconds": 1.0}}
+MAPPER_EXIT 0

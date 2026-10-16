@@ -1,0 +1,41 @@
+{
+  "tested_at_utc": "2026-10-16T05:11:16.504541+00:00",
+  "scope": "real uinput create/classify/destroy only; no injected events, no grabs",
+  "results": [
+    {
+      "kind": "touch",
+      "sysname": "input35",
+      "events_injected": false,
+      "properties": {
+        "DEVPATH": "/devices/virtual/input/input35/event28",
+        "DEVNAME": "/dev/input/event28",
+        "MAJOR": "13",
+        "MINOR": "92",
+        "SUBSYSTEM": "input",
+        "USEC_INITIALIZED": "16027310426",
+        "ID_INPUT": "1",
+        "ID_INPUT_TOUCHSCREEN": "1"
+      },
+      "input_properties": "2",
+      "removed_after_close": true
+    },
+    {
+      "kind": "mouse",
+      "sysname": "input36",
+      "events_injected": false,
+      "properties": {
+        "DEVPATH": "/devices/virtual/input/input36/event29",
+        "DEVNAME": "/dev/input/event29",
+        "MAJOR": "13",
+        "MINOR": "93",
+        "SUBSYSTEM": "input",
+        "USEC_INITIALIZED": "16027361284",
+        "ID_INPUT": "1",
+        "ID_INPUT_MOUSE": "1",
+        "ID_SERIAL": "noserial"
+      },
+      "input_properties": "0",
+      "removed_after_close": true
+    }
+  ]
+}

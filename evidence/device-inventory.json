@@ -1,0 +1,29 @@
+{
+  "captured_at_utc": "2026-10-16T05:05:52.935826+00:00",
+  "source": "Linux sysfs and BlueZ metadata; not REA Evidence",
+  "hid_sysfs_path": "/sys/devices/virtual/misc/uhid/0005:248A:045B.0005",
+  "uevent": "DRIVER=hid-generic\nHID_ID=0005:0000248A:0000045B\nHID_NAME=RGR06\nHID_PHYS=e4:c7:67:70:d1:b7\nHID_UNIQ=d1:05:cb:5c:37:15\nMODALIAS=hid:b0005g0001v0000248Ap0000045B\n",
+  "descriptor_hex": "05010906a1018501050719e029e71500250175019508810295017508810195057501050819012905910295017503910195067508150025f10507190029f18100c0050c0901a1018502751095011501268c0219012a8c028100c0050d0901a10185030922a10209421500250175019501810209328102950681030954750895018102050126ff0f75109501550065000930350046b50481020931468a038102c0050d0948094995028102c0",
+  "descriptor_sha256": "177ec423b4adb8fcd2137ed9476f5d61baa261950aa93b9cb33d25e7f4be02e6",
+  "descriptor_length": 171,
+  "input_nodes": [
+    {
+      "path": "/dev/input/event26",
+      "sysfs_path": "/sys/devices/virtual/misc/uhid/0005:248A:045B.0005/input/input33",
+      "name": "RGR06 Keyboard",
+      "uniq": "d1:05:cb:5c:37:15",
+      "readable": false
+    },
+    {
+      "path": "/dev/input/event27",
+      "sysfs_path": "/sys/devices/virtual/misc/uhid/0005:248A:045B.0005/input/input34",
+      "name": "RGR06",
+      "uniq": "d1:05:cb:5c:37:15",
+      "readable": false
+    }
+  ],
+  "limitations": [
+    "No input events or raw HID reports captured; input nodes require read access",
+    "No firmware or vendor-specific GATT writes performed"
+  ]
+}

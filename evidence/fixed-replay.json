@@ -1,0 +1,66 @@
+{
+  "source_sha256": "64eb18235c2ccd2febeb4bafeaccee8d7876edee2b3e3ef155b8c83380f9cd05",
+  "scope": "one warm offline replay of complete real recording; same touchscreen mode as baseline; no devices opened",
+  "elapsed_seconds": 0.015809045002242783,
+  "cpu_user_seconds": 0.014812000000000002,
+  "cpu_system_seconds": 0.0009360000000000002,
+  "peak_process_rss_kib": 15856,
+  "result": {
+    "source_path": "/home/longxiaoze/codes/rgr06-tools/evidence/retest-samples.jsonl",
+    "source_absolute_path": "/home/longxiaoze/codes/rgr06-tools/evidence/retest-samples.jsonl",
+    "source_sha256": "aa1f73731173527b0f179e42aa386f81463030fb9c4b3f24a022a7cf4963a7fa",
+    "capture_complete": true,
+    "raw_reports": 1468,
+    "state_before_final_cleanup": {
+      "buttons_held": [],
+      "touch_active": false
+    },
+    "button_clicks": {
+      "left": 8,
+      "right": 136,
+      "middle": 11
+    },
+    "wheel_detents": {
+      "wheel_up": 49,
+      "wheel_down": 51
+    },
+    "touch_contacts": 22,
+    "touch_releases": 22,
+    "relative_motion": {
+      "x": {
+        "events": 0,
+        "total": 0
+      },
+      "y": {
+        "events": 0,
+        "total": 0
+      }
+    },
+    "buttons_held_at_end": [],
+    "touch_active_at_end": false,
+    "statistics": {
+      "recognized_controls": {
+        "right": 136,
+        "wheel_press": 11,
+        "wheel_forward": 49,
+        "wheel_backward": 51,
+        "left": 8
+      },
+      "drops": {
+        "unknown_sequences": 6,
+        "dropped_taps": 15,
+        "incomplete_taps": 0
+      },
+      "pending_taps": 0,
+      "pressed_report_states": 0,
+      "wheel_burst_active": false,
+      "sequence_idle_timeout_seconds": 1.0
+    }
+  },
+  "unmeasured": [
+    "agent tokens",
+    "cold startup",
+    "live input latency",
+    "process-family memory"
+  ]
+}

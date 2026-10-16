@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "profile": "rgr06-observed-v1",
+  "device": {"uniq": "d1:05:cb:5c:37:15"},
+  "touch": {"enabled": true, "mode": "pointer", "gain": 0.5, "contact_signal": "in_range", "swap_xy": false, "invert_x": false, "invert_y": false},
+  "controls": {"left": "left", "right": "right", "wheel_press": "middle", "wheel_forward": "wheel_up", "wheel_backward": "wheel_down"}
+}
